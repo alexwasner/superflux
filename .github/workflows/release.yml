@@ -2,9 +2,9 @@ name: release
 
 on:
   workflow_dispatch:
-    push:
-      branches:
-        - "supermain"
+  push:
+    branches:
+      - "supermain"
 
 jobs:
   release:
